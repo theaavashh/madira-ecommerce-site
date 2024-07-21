@@ -1,0 +1,833 @@
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f2f8;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+a,
+a:hover,
+a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.login-body{
+    background-color: #cad2c5;
+}
+
+.loginImage{
+    height:200px;
+    position: relative;
+    top:-80px;
+    left:-80px;
+}
+
+.logo{
+   position: relative;
+   top:-120px;
+   left:10px;
+}
+
+.login-form{
+    background: white;
+    box-shadow: 0 0 20px -10px rgba(0,0,0,0.5);
+    padding: 50px 40px;
+    margin: 100px 0 0;
+    position: relative;
+    top:-30px;
+    
+}
+
+
+.login-form .form-group{
+    text-align: left;
+}
+.login-form label{    
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    position: relative;
+    top:-220px;
+    left:30px;
+    margin-top: 30px;
+}
+.login-form .form-control{
+position:relative;
+top:-220px;
+border: 2px solid gainsboro;
+display: inline-block;
+padding: 15px 15px;
+height: 50px;
+
+}
+.login-form .form-control:focus{
+    border: none;
+    box-shadow: 3px 3px 5px #999;
+}
+.login-form .form-control::placeholder{
+    color: #999;
+    text-transform: capitalize;
+}
+
+.login-form .btn{
+    position: relative;
+    top:-160px;
+    left:80px;
+    margin: -10px;
+    padding: 7px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width:300px;
+    color: #fff;
+    background-color: #457b9d;
+    transition: all 0.3s;
+}
+
+.login-form .btn:hover,
+.login-form .btn:focus{
+    background-color: #333;
+}
+.fa-solid{
+    font-size: 30px;
+    position: relative;
+    left:-15px;
+}
+.dash-fa{
+    position: relative;
+    left:10px;
+}
+
+.alertLogin{
+    position: relative;
+    top:-100px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+#admin-header{
+    box-shadow: 5px 5px 15px 5px #000000;
+    padding: 15px 0 12px;
+    position: relative;
+    z-index: 1;
+    height:90px;
+}
+
+#adminDisplay{
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    color:#990033;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top:10px;
+    left:200px;
+
+  
+}
+#adminDisplay:hover{
+    background-color: white;
+    color:blue;
+}
+
+
+
+
+
+
+
+#admin-menu{
+    box-shadow: 5px 5px 15px 5px #000000;
+    /* background-color: #415089; */
+  background-color: white;
+    
+
+     margin-top: -90px;
+    min-height: 1000px;
+    border-right: 3px solid purple;
+    
+}
+header{
+    font-size: 45px;
+    font-family: 'Lora', serif;
+    color:#990033;
+    font-weight: 100px;
+    position: relative;
+    top:95px;
+    margin-bottom: 15px;
+    
+}
+#sub-head{
+    font-size: 35px;
+    font-family: 'Lora', serif;
+    color:#990033;
+    font-weight: 100px;
+    position: relative;
+    top:90px;
+    margin-bottom: 15px;
+
+}
+
+#admin-menu .menu-list li a{
+    color: black;
+    font-size: 25px;
+  font-weight: lighter;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    display: block;
+    transition: all 0.3s;
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+    top: 85px;
+
+}
+#admin-menu .menu-list li a #changePassword{
+    color:red;
+}
+
+#admin-menu .menu-list li.active a,
+#admin-menu .menu-list li a:hover{
+    background-color:black;
+    color:white
+}
+
+span #dashboard-title{
+    color:red;
+}
+
+#admin-content{
+    padding: 25px 20px 0;
+    min-height: 650px;
+}
+#admin-content .admin-content-container{
+    min-height: 645px;
+    position: relative;
+    top:50px;
+}
+#add-button{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+  font-size: 30px;
+    position: relative;
+    top:-30px;
+
+    left:650px;
+}
+#add-button:hover{
+    background-color:white;
+    color:black;
+}
+
+ .admin-heading{
+
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    color:#990033;
+    font-size: 50px;
+    margin: -0px 0 20px 40px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+
+/* #admin-content{
+    background-color: white; */
+
+
+ /* #admin-content .add-new{
+    color: #fff;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: all 0.3s;
+} */
+
+
+
+/*
+#admin-content .add-new:hover{
+    background-color: #333;
+    box-shadow: 0 0 5px #333;
+}  */
+
+#admin-content .detail-box{
+    color: #fff;
+    background-color: black;
+    width: 220px;
+    padding: 40px 20px;
+  
+    text-align: center;
+    margin: 0 auto 50px ;
+    border-radius: 30px;
+    border: 3px solid #fff;
+    box-shadow: 5px 5px 0 purple;
+}
+
+
+#admin-content .detail-box .count{
+    display: block;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0 0 7px;
+    color:white;
+}
+.table-bordered{
+    border:2px solid gray;
+}
+
+thead{
+    
+    font-family: 'Lora', serif;
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 60px;
+    border-bottom: 5px solid gray;
+}
+#productsTable{
+   color:white;
+    text-align: center;
+    font-size: 20px;
+}
+table th{
+    text-align: center;
+}
+table td{
+    color:black;
+    text-align: center;
+    font-size: 20px;
+
+}
+.add-new{
+    background-color: #216869;
+    color:white;
+    position: relative;
+    top:170px;
+    left:-700px;
+    width: 500px;
+    height: 50px;
+}
+.addnewProduct{
+    background-color: #216869;
+    color:white;
+    position: relative;
+    top:50px;
+    left:10px;
+    width:200px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+
+    
+}
+
+.add-newCategory{
+    background-color: #216869;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    color:white;
+    position: relative;
+    top:40px;
+    left:300px;
+    width: 250px;
+    height: 50px;
+    border-radius: 0px;
+
+}
+#label-category{
+    margin: 40px 40px;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    color:black;
+    
+}
+#label-subCategory{
+  margin:30px 0px 0px 50px;
+  font-size: 40px;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color:black;
+}
+.add-newSubCategory{
+    background-color: #216869;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    color:white;
+    position: relative;
+    top:50px;
+    left:300px;
+    width: 250px;
+    height: 50px;
+
+}
+.category{
+    margin: -10px 40px;
+    height:60px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    color:black;
+    position:relative;
+    top:-30px;
+
+}
+.label-prod{
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+
+}
+.sub_category, .parent_cat{
+    margin-left: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    color:black;
+    
+}
+.brand_category, .brand_name{
+    margin-left: 50px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    color:black;
+
+}
+.fa-trash{
+    color:#f28482;
+}
+
+#product-title{
+    color:purple;
+    margin-bottom: 40px;
+}
+.product-add{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    padding: 10px 10px;
+
+    border-radius: 20px;
+    position: relative;
+    left:900px;
+}
+.product-add:hover{
+    color:green;
+    background: none;
+}
+
+ #category-box{
+  height: 160px;
+  position: relative;
+  top:50px;
+}
+#category-count{
+    position: relative;
+    top:-50px;
+    font-size: 15px;
+}
+#category-title{
+    position: relative;
+    top:-50px;
+    font-size: 15px;
+
+}
+
+#admin-content .detail-box .count-tag{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* ============================== */
+
+#admin-content .add-post-form{
+    /* border: 1px solid #000; */
+    margin: 0;
+}
+#admin-content .add-post-form .form-group.category,
+#admin-content .add-post-form .form-group.sub_category,
+#admin-content .add-post-form .form-group.brand{
+    display: inline-block;
+    width: 30%;
+    margin-right: 30px;
+}
+
+#admin-content .add-post-form .form-group.brand{
+    margin-right: 0;
+}
+
+#admin-content .add-post-form .form-control:focus{
+    box-shadow: 0 0 1px #333;
+    border-color: #999;
+}
+#admin-content .not-found{
+    padding: 10px 25px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#admin-footer{
+    padding: 5px;
+    text-align: center;
+    margin: 10 -20px;
+    color: black;
+    background-color: white;
+    font-size: 30px;
+}
+.add-product{
+    background-color: green;
+    position:relative;
+    top:-50px;
+    left: -700px;
+    width:300px;
+}
+
+.modal-body table{
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.modal-body table h3{
+    text-align: center;
+}
+table thead{
+    text-align: center;
+}
+
+#text-head{
+    font-size: 50px;
+    position: relative;
+    top:-50px;
+    left:10px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+    font-weight: bolder;
+ 
+}
+#text-head a{
+    color: #F8D525;
+
+}
+
+
+/*===================*/
+/*PUBLIC VIEW CSS START*/
+
+/*----------------------------*\
+	Logo
+\*----------------------------*/
+
+#header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#header .logo{
+    font-size: 30px;
+    margin: 0;
+}
+
+#header .logo-img{
+    display: block;
+}
+
+#header .logo-img img{
+    width: 100%;
+}
+
+#header .search{
+    margin: 0 auto;
+}
+
+#header .search .form-control{
+    border: none;
+    background-color: #f5f5f5;
+    padding: 22px 10px;
+    border-radius: 20px 0 0 20px;
+}
+#header .search .form-control:focus{
+    box-shadow: none;
+    border: none;
+}
+#header .search .btn{
+    color: #fff;
+    background-color: #df3500;
+    font-size: 20px;
+    padding: 8px 12px 7.5px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    transition: all 0.3s ease;
+}
+#header .search .btn:hover{
+    box-shadow: 0 0 3px #333 inset;
+}
+
+#header .header-info{
+    padding:10px 0;
+    text-align: right;
+}
+
+#header .header-info li{
+    display:inline-block;
+    margin-right:15px;
+}
+#header .header-info li:last-child{
+    margin:0;
+}
+#header .header-info li a{
+    font-size:16px;
+    color:#666;
+    text-transform: capitalize;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s;
+}
+#header .header-info li a i{
+    font-size: 20px;
+}
+#header .header-info li a:hover{
+    color: #df3500;
+}
+
+#header .header-info li a span{
+    color: #fff;
+    background-color: #DF3500;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 18px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    right: 0;
+}
+
+#header .header-info li i.fa{
+    margin:0 5px;
+}
+
+/*header menu CSS*/
+/*=============================*/
+
+#header-menu .menu-list{
+    background-color: #df3500;
+    padding: 8px 15px;
+    margin: 0 -15px;
+    text-align: center;
+}
+#header-menu .menu-list li {
+    display: inline-block;
+}
+#header-menu .menu-list li a{
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    margin: 0 15px 0 0;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.3s;
+}
+
+#header-menu .menu-list li a:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#footer{
+    color: #fff;
+    background-color: #df3500;
+    padding: 30px 0 0;
+}
+
+#footer h3{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 10px;
+}
+#footer h3:after{
+    content: '';
+    display: block;
+    clear: both;
+    background-color: #fff;
+    height: 2px;
+    width: 100px;
+    margin: 10px 0 0;
+}
+
+#footer p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+#footer a{
+    color: #fff;
+}
+#footer .menu-list{
+    margin: 0 0 20px;
+}
+#footer .menu-list li{
+    margin: 0 0 5px;
+}
+
+#footer .menu-list li a{
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+#footer .menu-list li i{
+    display: inline-block;
+    width: 15px;
+    font-size: 18px;
+    margin: 0 10px 0 0;
+    vertical-align: top;
+}
+#footer .menu-list li span{
+    display: inline-block;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding: 0;
+    width: calc(100% - 30px);
+    margin: 0 0 5px;
+}
+
+#footer .menu-list li a:hover{
+    text-shadow: 0 0 5px #000;
+}
+
+#footer span{
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+}
+
+
+/*----------------------------*\
+	/Footer
+\*----------------------------*/
+input.toggle-checkbox{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 14px;
+    width: 25px;
+    border: 1px solid #999;
+    vertical-align: -2px;
+    margin: 0 3px 0 0;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+            
+}
+
+input.toggle-checkbox:focus{
+    outline: none;
+}
+
+input.toggle-checkbox:checked{
+    background-color: green;
+}
+
+
+input.toggle-checkbox:before{
+    content: '';
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    opacity: 1;
+    border: none;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 1px;
+    left: 1px;
+    transform: translateX(0) translateY(0) rotate(0);
+}
+
+input.toggle-checkbox:checked:before{
+    background-color: #fff;
+    left: 11px;
+}
+
+
+/*payment success page css*/
+
+.payment-response{
+    padding: 50px 0;
+    text-align: center;
+}
+.payment-response .panel i{
+    font-size: 100px;
+    display: block;
+    margin: 0 0 20px;
+}
+
+.btn-button {
+    background-color: black;
+    color:white;
+    font-size: 25px;
+    border-radius: 30px;
+}
+#heading{
+    color:black;
+    font-size:80px;
+    position: relative;
+    top:-220px;
+    left:80px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#demo{
+    position: relative;
+    top:100px;
+    left:100px;
+}
